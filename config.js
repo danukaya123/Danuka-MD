@@ -67,34 +67,12 @@ global.SESSION_ID = process.env.SESSION_ID ||  "SUHAIL_17_34_03_08_ewogICJjcmVkc
 
 module.exports = {
 
-  menu: process.env.MENU || " 🚀 *Quizontal WhatsApp Bot* – Your All-in-One Media & Search Assistant! 🤖  
-
-Looking for a fast and easy way to download videos, search YouTube, find wallpapers, and more? *Quizontal** has you covered! This powerful WhatsApp bot helps you access and download content effortlessly.  
-
-✨ *Features:*  
-✅ *Video Downloader* – Download videos from multiple platforms 🎥⬇️  
-✅ *YouTube Search* – Find and explore YouTube videos instantly 🔍🎬  
-✅ *Wallpaper Download* – Get stunning wallpapers for your device 📱🖼️  
-✅ *More Awesome Features* – Stay tuned for exciting updates! 🚀  
-
-Subscribe me - https://www.youtube.com/@quizontal
-Just send a message and let *Quizontal* do the magic! ⚡  ", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || "🚀 *Quizontal WhatsApp Bot* – Your All-in-One Media & Search Assistant! 🤖 ", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.4.0",
-  caption : global.caption || " 🚀 *Quizontal WhatsApp Bot* – Your All-in-One Media & Search Assistant! 🤖  
-
-Looking for a fast and easy way to download videos, search YouTube, find wallpapers, and more? *Quizontal** has you covered! This powerful WhatsApp bot helps you access and download content effortlessly.  
-
-✨ *Features:*  
-✅ *Video Downloader* – Download videos from multiple platforms 🎥⬇️  
-✅ *YouTube Search* – Find and explore YouTube videos instantly 🔍🎬  
-✅ *Wallpaper Download* – Get stunning wallpapers for your device 📱🖼️  
-✅ *More Awesome Features* – Stay tuned for exciting updates! 🚀  
-
-Subscribe me - https://www.youtube.com/@quizontal
-Just send a message and let *Quizontal* do the magic! ⚡  " , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : global.caption || " 🚀 *Quizontal WhatsApp Bot* – Your All-in-One Media & Search Assistant! 🤖  " , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
